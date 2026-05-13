@@ -281,19 +281,19 @@ def start_listening():
                     break
 
                 elif 'play my music' in user:
-                    music_dir = 'C:\\Users\\risha\\Music\\My Music'
+                    music_dir = 'C:\\Users\\Music\\My Music'
                     songs = os.listdir(music_dir)
                     os.startfile(os.path.join(music_dir, songs[0]))
                     break
 
                 elif 'play my song' in user:
-                    music_dir = 'C:\\Users\\risha\\Music\\My Music'
+                    music_dir = 'C:\\Users\\Music\\My Music'
                     songs = os.listdir(music_dir)
                     os.startfile(os.path.join(music_dir, songs[16]))
                     break
 
                 elif 'open vs code' in user:
-                    codePath = "C:\\Users\\risha\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                    codePath = "C:\\Users\\Microsoft VS Code\\Code.exe"
                     os.startfile(codePath)
                     break
 
@@ -320,17 +320,17 @@ def start_listening():
                     break
 
                 elif 'open notepad' in user:
-                    notepad = "C:\\Users\\risha\\OneDrive\\Desktop\\Notepad.lnk"
+                    notepad = "C:\\Users\\OneDrive\\Desktop\\Notepad.lnk"
                     os.startfile(notepad)
                     break
 
                 elif 'open discord' in user:
-                    discord = "C:\\Users\\risha\\OneDrive\\Desktop\\Discord.lnk"
+                    discord = "C:\\Users\\OneDrive\\Desktop\\Discord.lnk"
                     os.startfile(discord)
                     break
 
                 elif 'open file manager' in user:
-                    manager = "C:\\Users\\risha\\OneDrive\\Desktop\\This PC.lnk"
+                    manager = "C:\\Users\\OneDrive\\Desktop\\This PC.lnk"
                     os.startfile(manager)
                     break
 
@@ -356,7 +356,7 @@ def start_listening():
 
                 elif 'whatsapp' in user:
                     play("open\\whatsapp.mp3")
-                    whatsapp = "C:\\Users\\risha\\OneDrive\\Desktop\\WhatsApp - Shortcut.lnk"
+                    whatsapp = "C:\\Users\\OneDrive\\Desktop\\WhatsApp.lnk"
                     os.startfile(whatsapp)
                     break
 
