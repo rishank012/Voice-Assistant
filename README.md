@@ -52,7 +52,7 @@ This project relies on several Python libraries for audio processing, web scrapi
 
 ## ⚠️ Important Developer Note
 
-**Local Paths:** Some functions in this script (like opening VS Code, Discord, or specific music folders) currently use hardcoded local directories (e.g., `C:\Users\risha\...`). 
+**Local Paths:** Some functions in this script (like opening VS Code, Discord, or specific music folders) currently use hardcoded local directories (e.g., `C:\Users\...`). 
 * If you are cloning this repository to run on your own machine, please update these directory paths in the `start_listening()` function to match your system's configuration.
 
 ## 🤝 Usage
